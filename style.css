@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    display: flexbox;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container input {
+    margin-bottom: 10px;
+}
+
+#btn{
+    color: white;
+    background-color: green;
+    border: 1px solid black;
+    border: none;
+    padding: 5px 15px;
+}
+
+#btn:hover {
+    background-color: rgb(255, 156, 63);
+    color: black;
+}
+
+.answer-box {
+    border: 1px solid black;
+    padding: 0 20px;
+    width: 30%;
+    margin: 0 auto;
+}
